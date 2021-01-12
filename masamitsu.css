@@ -6,15 +6,22 @@
 
 .header-box{
 	width:100%;
-	height:100px;
+	height:150px;
 	background-color:#000000;
+}
+
+.header-textline{
+	color:#FFFFFF;
+	font-size:22px;
+	padding:10px 0 0 20px;
+	font-family:fantasy;
 }
 
 .main-visual{
 	float:left;
-	height:500px;
+	height:700px;
 	width:100%;
-	margin:10px 0px 10px 0px;
+	margin:0 0px 10px 0px;
 	background-image:url(singapore.jpg);
 	background-size:cover;
 	background-position:center;
@@ -25,21 +32,260 @@
 	font-size:52px;
 	color:#FFFFFF;
 	background-color:rgba(0,0,0,0.5);
-	margin:220px 0 0 0;
+	margin:300px 0 0 0;
+	font-family:'Georgia';
+	padding:20px 0;
 }
 
-.singapore-image{
-	height:auto;
-	width:50%;
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+  }
+
+.profile-box{
+	margin-top:100px;
+  }
+
+.title{
+	font-family: 'Impact';
+	text-align:center;
+	font-size:50px;
+	margin-bottom:50px;
 }
 
-.header-textline{
+.underline{
+	border-bottom:solid 5px;
+	width:150px;
+	margin: 0 auto 50px;
+}
+
+.profile-detial{
+	background-color:#222222;
+	padding:50px 0 0 0 ;
+	margin-bottom:100px;
+	height:500px;
+}
+
+.profile-image{
+	margin:0 50px 0 150px;
+	background-image:url(masamitsu.jpg);
+	width: 25%;
+	height: 450px;
+	background-size:cover;
+	background-position:center;
+	float:left;
+	border:solid 1px #888888;
+}
+
+.e-name{
+	padding-top:30px;
+	font-size:28px;
+	font-family:'arial black';
+	color:yellow;
+	line-height:0.1;
+}
+.name{
+	font-size:60px;
+	font-family:'ヒラギノ角ゴ Pro W6';
+	margin:0 0 10px 0;
+	color:#FFFFFF;
+}
+
+.birth{
+	font-size:15px;
+	margin:10px 0 10px 0;
+	color:#FFFFFF;
+	line-height:0.0;
+	font-family:'ヒラギノ角ゴ ProN W6';
+}
+
+.from{
+	font-size:15px;
+	margin:10px 0 10px 0;
+	color:#FFFFFF;
+	font-family:'ヒラギノ角ゴ ProN W6';
+}
+
+.message-title{
+	font-family:'arial black';
+	font-size:21px;
+	color:#FFFFFF;
+	margin-top:35px;
+}
+
+.message{
+	font-family:'ヒラギノ角ゴ ProN W6';
+	width:1100px;
+	font-size:18px;
+	margin:10px 0 10px 0;
+	color:#FFFFFF;
+}
+
+.chorus-box{
+	margin-bottom:125px;
+}
+.e-chorus-title{
+	font-size:28px;
+	color:#FF8856;
+	font-family:'arial black';
+	line-height: 0.1;
+}
+
+.chorus-title{
+	font-size:60px;
+	font-family:'ヒラギノ角ゴ Pro W6';
+	
+}
+
+.chorus-detial{
+	float:left;
+	width:30%;
+	height:45px;
+	margin:20px;
+	padding:0 30px 0 100px;
+}
+
+.chorus-image{
+	background-image:url(chorus.jpg);
+	margin-top:50px;
+	width: 45%;
+	height: 450px;
+	background-size:cover;
+	background-position:-70px -50px;
+	float:left;
+}
+
+.baseball-image{
+	background-image:url(baseball.jpg);
+	width: 45%;
+	height: 450px;
+	background-size:cover;
+	background-position:-70px 0px;
+	float:left;
+	margin:0 0 0 100px;
+}
+
+.e-baseball-title{
+	font-size:28px;
+	color:#FF8856;
+	font-family:'arial black';
+	line-height: 0.1;
+}
+
+.basebale-title{
+	font-size:60px;
+	font-family:'ヒラギノ角ゴ Pro W6';
+}
+
+.baseball-detial{
+	float:left;
+	width:30%;
+	height:45px;
+	padding:0 0 0 50px;
+
+}
+
+.baseball-image2{
+	width:100%;
+	margin-top:20px;
+	height:240px;
+	background-position:-30px 0 ;
+	background-image:url(baseball2.jpg);
+}
+
+.editor-box{
+	margin:100px 0 100px 100px;
+}
+
+.e-editor-title{
+	font-size:28px;
+	color:#FF8856;
+	font-family:'arial black';
+	line-height: 0.1;
+}
+
+.editor-title{
+	font-size:60px;
+	font-family:'ヒラギノ角ゴ Pro W6';
+}
+
+.editor-detial{
+	float:left;
+	width:35%;
+	height:45px;
+	margin-right:50px;
+
+}
+
+.editor-image{
+	background-image:url(videoedit.jpeg);
+	width: 50%;
+	height: 450px;
+	background-size:cover;
+	background-position:center;
+	float:left;
+}
+
+.comic-box{
+	margin:0 0 0 100px;
+}
+
+.e-comic-title{
+	font-size:28px;
+	color:#FF8856;
+	font-family:'arial black';
+	line-height: 0.1;
+}
+
+.comic-title{
+	font-size:60px;
+	font-family:'ヒラギノ角ゴ Pro W6';
+}
+
+.comic-image{
+	background-image:url(comics.jpg);
+	width: 50%;
+	height: 450px;
+	background-size:cover;
+	background-position:center;
+	float:left;
+	margin-right:50px;
+}
+
+.comic-detial{
+	float:left;
+	width:35%;
+	height:45px;
+	margin-right:50px;
+
+}
+
+.next-link{
+	width:150px;
+	height:70px;
+	background-color:#FF8856;
+	border-radius:15px;
+	margin:50px auto;
+}
+
+.next{
+	font-size:38px;
+	text-align:center;
+	font-family:'Impact';
+	padding:10px 0 0 0 ;
+}
+
+.footer-box{
+	margin-top:100px;
+	width:100%;
+	height:300px;
+	background-color:#000000;
+}
+
+.footer-textline{
 	color:#FFFFFF;
 	font-size:22px;
 	padding:10px 0 0 20px;
-}
-
-h1{
-	color:red;
 }
 
